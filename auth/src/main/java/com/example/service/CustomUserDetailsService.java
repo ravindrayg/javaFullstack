@@ -1,12 +1,12 @@
-package service;
+package com.example.service;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import Models.User;
-import repository.UserRepository;
+import com.example.models.User;
+import com.example.repository.UserRepository;
 
 import java.util.ArrayList;
 import java.util.List;

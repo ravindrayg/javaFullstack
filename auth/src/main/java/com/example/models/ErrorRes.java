@@ -1,4 +1,4 @@
-package Models;
+package com.example.models;
 
 import org.springframework.http.HttpStatus;
 

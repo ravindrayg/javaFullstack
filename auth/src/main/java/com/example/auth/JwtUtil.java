@@ -1,11 +1,11 @@
-package auth;
+package com.example.auth;
 
 import io.jsonwebtoken.*;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.stereotype.Component;
 
-import Models.User;
+import com.example.models.User;
 
 import java.util.Date;
 import java.util.List;

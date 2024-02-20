@@ -1,4 +1,4 @@
-package Controller;
+package com.example.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,11 +9,11 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import Models.ErrorRes;
-import Models.LoginReq;
-import Models.LoginRes;
-import Models.User;
-import auth.JwtUtil;
+import com.example.auth.JwtUtil;
+import com.example.models.ErrorRes;
+import com.example.models.LoginReq;
+import com.example.models.LoginRes;
+import com.example.models.User;
 
 @Controller
 @RequestMapping("/rest/auth")

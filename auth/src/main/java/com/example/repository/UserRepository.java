@@ -1,8 +1,8 @@
-package repository;
+package com.example.repository;
 
 import org.springframework.stereotype.Repository;
 
-import Models.User;
+import com.example.models.User;
 
 @Repository
 public class UserRepository {

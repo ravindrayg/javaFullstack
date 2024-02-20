@@ -1,4 +1,4 @@
-package Models;
+package com.example.models;
 
 public class LoginReq {
     private String email;
